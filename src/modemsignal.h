@@ -118,7 +118,7 @@ Q_SIGNALS:
     void evdoChanged(const QVariantMap &evdo);
     void gsmChanged(const QVariantMap &gsm);
     void umtsChanged(const QVariantMap &umts);
-    void lteChanged(const QString &lte);
+    void lteChanged(const QVariantMap &lte);
 };
 
 } // namespace ModemManager
